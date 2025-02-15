@@ -22,7 +22,12 @@ Base layout of Product preview implemented without styling and contents filled w
 
 ![screenshot](ss/ss3.png)
 
-## After 4th commit
+## After 6th commit
 Applied the actual product data, assets added. No style implemented.
 
 ![screenshot](ss/ss4.png)
+
+## After 8th commit
+Applied style to the components of the product preview part.
+
+![screenshot](ss/ss5.png)
