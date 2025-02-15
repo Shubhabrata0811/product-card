@@ -21,3 +21,8 @@ Base layout of Product description implemented without styling and contents fill
 Base layout of Product preview implemented without styling and contents filled with random data and blank place holders
 
 ![screenshot](ss/ss3.png)
+
+## After 4th commit
+Applied the actual product data, assets added. No style implemented.
+
+![screenshot](ss/ss4.png)
