@@ -31,3 +31,8 @@ Applied the actual product data, assets added. No style implemented.
 Applied style to the components of the product preview part.
 
 ![screenshot](ss/ss5.png)
+
+## After 9th commit
+Applied style to the components of the product description part.
+
+![screenshot](ss/ss6.png)
