@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      body {
+        background-color: rgba(54, 69, 79, 0.5);
+      }
+
       .product-card {
         height: 700px;
         width: 60%;
         margin: 50px auto;
-        background-color: azure;
+        padding: 20px;
+        background-color: rgba(54, 69, 79, 0.8);
+        color: white;
         display: flex;
         text-align: center;
       }
       .product-preview {
         height: 100%;
         width: 50%;
+        background-color: rgb(89, 105, 116);
+        border-radius: 10px;
+        border: 1px solid rgb(46, 58, 67);
       }
 
       .product-preview figure > img {
         margin: 50px auto;
         width: 100%;
+        background-color: rgb(46, 58, 67);
       }
 
       .in-box-items {
@@ -32,6 +42,11 @@
       .in-box-items img {
         height: 90px;
         border-radius: 8px;
+        opacity: 0.7;
+      }
+
+      .in-box-items img:hover {
+        opacity: 1;
       }
 
       .price-details {
@@ -42,6 +57,10 @@
       .mrp {
         text-decoration: line-through;
         font-size: 12px;
+      }
+
+      .discount {
+        color: #b1b3ee;
       }
 
       .price {
@@ -58,6 +77,10 @@
         background-color: #8eafde;
       }
 
+      .button:hover {
+        background-color: #8e91de;
+      }
+
       .product-description {
         height: 100%;
         width: 50%;
@@ -68,7 +91,7 @@
       .product-description h1 {
         margin-top: 30px;
         padding: 10px;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid white;
       }
 
       .product-caption {
@@ -95,14 +118,22 @@
         font-weight: 800;
       }
 
-      .product-details,
-      .info-table {
+      .product-details {
         margin: 20px auto;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+        background-color: rgb(46, 58, 67, 0.5);
+        padding: 8px;
       }
 
-      .table-container {
-        max-height: 100px;
+      .info-table-container {
+        margin: auto 30px;
+        height: 100px;
         overflow-x: scroll;
+        background-color: rgb(46, 58, 67, 0.5);
+      }
+
+      .info-table {
         margin: 20px auto;
       }
     </style>
@@ -184,7 +215,7 @@
 
         <details class="product-info">
           <summary>Product Information</summary>
-          <div class="table-container">
+          <div class="info-table-container">
             <table class="info-table">
               <tr>
                 <th>Item model number</th>

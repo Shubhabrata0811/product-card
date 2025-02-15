@@ -36,3 +36,8 @@ Applied style to the components of the product preview part.
 Applied style to the components of the product description part.
 
 ![screenshot](ss/ss6.png)
+
+## After 10th commit
+Color scheme and hover effects applied.
+
+![screenshot](ss/ss7.png)
