@@ -10,7 +10,7 @@
       }
 
       .product-card {
-        height: 700px;
+        height: 800px;
         width: 60%;
         margin: 50px auto;
         padding: 20px;
@@ -49,13 +49,13 @@
       }
 
       .price-details {
-        margin: 30px auto;
+        margin: 40px auto;
         text-align: center;
       }
 
       .mrp {
         text-decoration: line-through;
-        font-size: 12px;
+        font-size: 16px;
       }
 
       .discount {
@@ -63,13 +63,23 @@
       }
 
       .price {
-        font-size: 30px;
+        font-size: 40px;
+      }
+
+      .price sup{
+        font-size: 25px;
+      }
+
+      .button-div {
+        margin: 50px auto;
       }
 
       .button {
+        display: inline-block;
+        margin: 30px;
+        width: 120px;
         border-radius: 25px;
-        padding: 10px;
-        margin: 20px;
+        padding: 15px;
         font-size: 20px;
         font-weight: 100;
         color: white;
@@ -105,9 +115,12 @@
         margin: 30px auto;
       }
 
-      th,
-      td {
-        padding: 2px;
+      .product-details th,
+      .product-details td,
+      .info-table th,
+      .info-table td {
+        padding: 8px;
+        text-align: left;
       }
 
       .product-info summary {
@@ -152,18 +165,17 @@
         <div class="price-details">
           <span class="mrp">M.R.P.: ₹64,990</span>
           <span class="discount">- 11%</span>
-          <span class="price"><sup>₹</sup>57,990</span>
+          <span class="price">₹57,990<sup>00</sup></span>
         </div>
-
-        <a class="button buy-now-button">Buy Now</a>
-        <a class="button add-to-cart-button">Add to cart</a>
+        <div class="button-div">
+          <a class="button">Buy Now</a>
+          <a class="button">Add to Cart</a>
+        </div>
       </div>
 
       <div class="product-description">
         <h1>Meta Quest 3</h1>
-        <h2 class="product-caption">
-          Ultimate power meets premium comfort
-        </h2>
+        <h2 class="product-caption">Ultimate power meets premium comfort</h2>
         <p class="product-about">
           Experience next-level VR and mixed reality with the Meta Quest 3.
           Featuring a high-resolution display and powerful Snapdragon XR2 Gen 2
